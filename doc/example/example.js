@@ -2,10 +2,10 @@
 
 const options = {
     hosts: {
-        domain: 'jitsi-meet.example.com',
-        muc: 'conference.jitsi-meet.example.com' // FIXME: use XEP-0030
+        domain: 'jitsi01.westus2.cloudapp.azure.com',
+        muc: 'conference.jitsi01.westus2.cloudapp.azure.com' // FIXME: use XEP-0030
     },
-    bosh: '//jitsi-meet.example.com/http-bind', // FIXME: use xep-0156 for that
+    bosh: 'https://jitsi01.westus2.cloudapp.azure.com/http-bind', // FIXME: use xep-0156 for that
 
     // The name of client node advertised in XEP-0115 'c' stanza
     clientNode: 'http://jitsi.org/jitsimeet'
