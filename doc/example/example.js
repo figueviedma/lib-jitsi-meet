@@ -20,7 +20,7 @@ let isJoined = false;
 let room = null;
 
 let localTracks = [];
-const remoteTracks = {};
+const remoteTracks = [];
 
 /**
  * Handles local tracks.
